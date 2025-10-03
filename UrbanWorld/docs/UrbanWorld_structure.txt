@@ -1,0 +1,30 @@
+UrbanWorld
+├───images
+│   ├───brands_icons
+│   └───brands
+│       ├───loop
+│       ├───montana_cans
+│       ├───montana_colors
+│       ├───grog
+│       ├───aka_colors
+│       ├───happy_ink
+│       ├───eggshell
+│       └───molotow
+├───css
+├───js
+│   ├───maps
+│   ├───artists
+│   └───marketplace
+├───data
+│   ├───murals.json
+│   ├───artists.json
+│   └───materials.json
+├───components
+│   ├───artist_profiles
+│   ├───mural_map
+│   └───marketplace
+├───tutorials
+│   ├───art
+│   └───music
+└───docs
+    └───project_plan

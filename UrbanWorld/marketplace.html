@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>UrbanWorld - Marketplace</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <!-- NAV (idéntico a index.html) -->
+  <nav>
+    <div class="nav-left">
+      <h1>UrbanWorld</h1>
+    </div>
+    <div class="nav-right">
+      <ul>
+        <li><a href="index.html">Feed</a></li>
+        <li><a href="map.html">Mapa</a></li>
+        <li><a href="marketplace.html" class="active">Marketplace</a></li>
+        <li><a href="docs.html">Aprende</a></li>
+        <li><a href="pages/login.html">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="shop">
+    <!-- PANEL LATERAL IZQUIERDO: CATEGORÍAS -->
+    <aside class="categories" id="categories-panel">
+      <h2>Categorías</h2>
+      <div id="category-list"></div>
+    </aside>
+
+    <!-- PRODUCTOS -->
+    <section class="products" id="products-section">
+      <div class="products-header">
+        <h2>Productos</h2>
+        <div class="products-controls">
+          <button id="show-all" class="ghost">Mostrar todo</button>
+        </div>
+      </div>
+      <div id="product-list" class="product-grid"></div>
+    </section>
+
+    <!-- CARRITO -->
+    <aside class="cart" id="cart-panel">
+      <h2>🛒 Carrito</h2>
+      <ul id="cart-items"></ul>
+      <div class="cart-footer">
+        <p id="cart-total">Total: 0.00 €</p>
+        <button id="checkout" class="primary">Finalizar compra</button>
+      </div>
+    </aside>
+  </main>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox hidden">
+    <div class="lightbox-inner">
+      <button id="close-lightbox" class="lightbox-close">✕</button>
+      <img id="lightbox-img" src="" alt="Imagen ampliada">
+    </div>
+  </div>
+
+  <script src="scripts/shop.js"></script>
+</body>
+</html>

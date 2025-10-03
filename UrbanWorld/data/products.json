@@ -1,0 +1,29 @@
+{
+  "categories": [
+    { "name": "Sprays", "subcategories": ["Molotow", "Barnices"] },
+    { "name": "Marcadores", "subcategories": ["Punta fina", "Punta gruesa"] },
+    { "name": "Accesorios", "subcategories": [] }
+  ],
+  "products": [
+    {
+      "id": "spray_molotow_premiun",
+      "name": "Spray Molotow Premiun 400ml",
+      "price": 5.25,
+      "description": "Spray premium con alta pigmentación y acabado satinado.",
+      "category": "Sprays",
+      "subcategory": "Molotow",
+      "colors": ["Rojo", "Azul", "Negro", "Blanco"],
+      "images": ["assets/images/molotow/sprays/molotow_premiun/colors/spray_molotow_premiun_400ml/spray_molotow_premiun_1.jpg", "assets/images/spray1b.jpg", "assets/images/spray1c.jpg"]
+    },
+    {
+      "id": "marker-urbanink-fina",
+      "name": "Marcador UrbanInk Punta Fina",
+      "price": 3.50,
+      "description": "Marcador resistente al agua con punta fina ideal para detalles.",
+      "category": "Marcadores",
+      "subcategory": "Punta fina",
+      "colors": ["Negro", "Azul", "Rojo"],
+      "images": ["assets/images/marker1a.jpg", "assets/images/marker1b.jpg"]
+    }
+  ]
+}
